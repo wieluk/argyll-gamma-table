@@ -32,7 +32,6 @@ With Python 3 installed:
 pip3 install numpy scipy matplotlib
 ```
 
-
 ## Running the Script
 
 1. **Start the Script**
@@ -49,21 +48,19 @@ python3 photometer_gamma_table.py
      - Grayscale patches (e.g., `64`, or `0` to skip).
      - Color patches per channel (e.g., `64`, or `0` to skip).
      - At least one must be greater than zero.
+3. **Calibrate the Photometer (for colormunki photo)**
 
-3. **Calibrate the Photometer**
-    1. **Calibration Mode:**
+   1. **Calibration Mode:**
+
    - Place the photometer sensor face down, button facing you.
    - Set to **calibration mode** (bottom-left position).
-
 4. **Switch to Measurement Mode**
 
    - Set to **measurement mode** (bottom-middle position).
-
 5. **Measure Test Patches**
 
    - Follow on-screen instructions.
    - Position sensor against the monitor.
-
 6. **Complete Calibration**
 
    - Wait for processing to finish.
@@ -99,4 +96,3 @@ Screen('CloseAll');
 ```
 
 Refer to [Psychtoolbox documentation](http://psychtoolbox.org/docs/Screen-LoadNormalizedGammaTable) for details.
-
