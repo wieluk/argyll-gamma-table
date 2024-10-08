@@ -269,7 +269,7 @@ def main():
     plt.title('Display Gamma Curves')
     plt.legend()
     plt.grid(True)
-    plt.show()
+    plt.savefig(f"{base_name}.png")
 
 if __name__ == '__main__':
     main()
